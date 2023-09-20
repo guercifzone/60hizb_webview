@@ -26,7 +26,7 @@ abdrahman_naboulsi.setOnClickListener(new View.OnClickListener() {
         startActivity(new Intent(MainActivity.this , AbdrahmanNaboulsi_Activity.class));
     }
 });
-/*
+
 kiraa_jamaaia.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View view) {
@@ -45,6 +45,6 @@ omar_kzabri.setOnClickListener(new View.OnClickListener() {
         startActivity(new Intent(MainActivity.this , Omar_kzabriActivity.class));
     }
 });
-*/
+
     }
 }
