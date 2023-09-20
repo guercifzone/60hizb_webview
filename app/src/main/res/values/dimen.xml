@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_img">150dp</dimen>
+    <color name="background_img">#FDFCFFFD</color>
+       <dimen name="font_size">20dp</dimen>
+    <dimen name="text_size">17dp</dimen>
+
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="4"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/abdrahim_naboulsi"
+            android:layout_width="@dimen/size_img"
+            android:layout_height="@dimen/size_img"
+            android:background="@color/background_img"
+            android:scaleType="fitCenter"
+            android:src="@drawable/naboulsi_abdelrahim"/>
+
+        <TextView
+            android:textColor="@color/white"
+            android:shadowColor="#000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:textAllCaps="true"
+            android:textSize="@dimen/font_size"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="عبد  الرحيم  النابولسي"
+            android:fontFamily="@font/modern_thin"/>
+
+        <ImageButton
+            android:id="@+id/laayoun_elkoushi"
+            android:layout_width="@dimen/size_img"
+            android:layout_height="@dimen/size_img"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/laayoun_elkoushi" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:shadowColor="#000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:textAllCaps="true"
+            android:textSize="@dimen/font_size"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="العيون  الكوشي"
+            android:fontFamily="@font/modern_thin"/>
+
+        <ImageButton
+            android:id="@+id/omar_lkzabri"
+            android:layout_width="@dimen/size_img"
+            android:layout_height="@dimen/size_img"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/omar_kzabri" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:shadowColor="#000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:textAllCaps="true"
+            android:textSize="@dimen/font_size"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="عمر  القزابري"
+            android:fontFamily="@font/modern_thin"/>
+
+        <ImageButton
+            android:id="@+id/kiraa_jmaaia"
+            android:layout_width="@dimen/size_img"
+            android:layout_height="@dimen/size_img"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/kiraa_jamaaia"
+            />
+
+        <TextView
+            android:textColor="@color/white"
+            android:shadowColor="#000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:textAllCaps="true"
+            android:textSize="@dimen/font_size"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="قراءة جماعية"
+            android:fontFamily="@font/modern_thin"/>
+
+    </GridLayout>
+
+    <TextView
+        android:textColor="@color/white"
+        android:shadowColor="#000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:textAllCaps="true"
+        android:textSize="@dimen/text_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:text="     تطبيق خفيف لختمات  القرآن الكريم يعمل على سرفر الفيسبوك "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        tools:layout_editor_absoluteX="30dp"
+        android:fontFamily="@font/diwany_stripe"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
